@@ -24,7 +24,9 @@ We studied the associated genetic variants of LGI1 LE by performing a GWAS. The 
 
 The Human Leukocyte Antigen system (HLA) is a group of proteins encoded by the Major Histocompatibility Complex (HMC) gene complex in humans. These cell-surface proteins are responsible for the regulation of the immune system and for triggering immune responses when a foreign organism is encountered. 
 
-![imageofChr6](https://upload.wikimedia.org/wikipedia/commons/7/77/HLA.svg)
+<p align="center">
+  <img width="460" height="300" src="https://upload.wikimedia.org/wikipedia/commons/7/77/HLA.svg">
+</p>
 
 The human leukocyte antigen (HLA) system or complex is a group of related proteins that are encoded by the major histocompatibility complex (MHC) gene complex in humans.[1] These cell-surface proteins are responsible for the regulation of the immune system. The HLA gene complex resides on a 3 Mbp stretch within chromosome 6p21. HLA genes are highly polymorphic, which means that they have many different alleles, allowing them to fine-tune the adaptive immune system. The proteins encoded by certain genes are also known as antigens, as a result of their historic discovery as factors in organ transplants. Different classes have different functions: 
 
