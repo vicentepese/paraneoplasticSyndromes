@@ -1,0 +1,25 @@
+{
+    "directory":{
+        "Data":"Data/",
+        "GWAS":"GWAS/",
+        "HLA_analysis":"HLA_analysis/",
+        "Outputs":"Outputs/",
+        "Relegated_Code":"Relegated_Code/",
+        "Resources":"Resources/"
+
+    },
+
+    "file":{
+        "GWAS_total":"Data/Samples/GWAS_total.xlsx",
+        "GWAS_KLS":"Data/Samples/GWAS_total.xlsx",
+        "plates":"GWAS/ResourcesGWAS/plates.csv",
+        "GWASIDsControls":"Resources/GWASIDsControls.csv",
+        "GWASIDsCases":"Resources/GWASIDsCases.csv",
+        "paraneoplastic":"Data/Samples/paraneoplastic_GWAS_sample.xlsx",
+        "Cases_samples":"Resources/Cases_Samples.xls",
+        "Controls_samples":"Resources/Controls_samples.xls",
+        "narcolepsy":"Data/Samples/narcolepsy_sample.xlsc"
+    },
+
+    "diagnosis":"LGI1"
+}

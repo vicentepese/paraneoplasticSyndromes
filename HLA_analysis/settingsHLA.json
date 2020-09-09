@@ -1,0 +1,60 @@
+{
+    "directory":{
+        "Sample":"Data/Samples/",
+        "HLA_predictions":"HLA_analysis/Data/HLA_predictions/",
+        "HLA_trained_models":"HLA_analysis/Data/HLA_trained_models/",
+        "Output":"Outputs/",
+        "HLA_Output_smallSample":"Outputs/HLA_smallSample/",
+        "HLA_Output_Chi2":"Outputs/HLA_Chi2/",
+        "HLA_Output_GLM":"Outputs/HLA_GLM/",
+        "HLA_Output_HomoHetero":"Outputs/HLA_HomoHetero",
+        "HLA_Output_Haplotype":"Outputs/HLA_Haplotypes/",
+        "HLA_Output_GLM_Iter":"Outputs/HLA_GLM_Iter/",
+        "HLA_Output_AA_Analysis":"Outputs/HLA_AA_Analysis/"
+    },
+
+    "file":{
+        "paraneoplastic":"Data/Samples/paraneoplastic_GWAS_sample.xlsx",
+        "narcolepsy":".Data/Samples/narcolepsy_sample.xlsc",
+        "GWAS_total":"Data/Samples/GWAS_total.xlsx",
+        "GWAS_KLS":"Data/Samples/KLS control 3 markers result2.xlsx",
+        "GWASIDsControls":"Resources/GWASIDsControls.csv",
+        "GWASIDsCases":"Resources/GWASIDsCases.csv",
+        "patList":"Resources/patList.txt",
+        "patList_allplates":"Resources/patList_allPlates.txt",
+        "patList_SSNP":"Resources/patList_SSNP.txt",
+        "filtPostMatchPatList":"Resources/filtPostMatchPatList.txt",
+        "filtPostMatchPatList_SSNP":"Resources/filtPostMatchPatList_SSNP.txt",
+        "HLA_total":"HLA_analysis/ResourcesHLA/HLA_total.txt",
+        "HLA_calls_all_plates":"GWAS/ResourcesGWAS/HLA_CALLS_LGL1_CASE_CONTROLS.csv",
+        "PCS":"Resources/PCS.txt",
+        "PCS_all_plates":"GWAS/ResourcesGWAS/GPC_PMRA_upto121.eigenvec",
+        "PMRA_HLA_model":"HLA_analysis/Data/HLA_trained_models/PMRA-HLA4-hg19.RData",
+        "PMRA_DRB3_model":"HLA_analysis/Data/HLA_trained_models/PMRA_HLA_DRB3.RData",
+        "PMRA_DRB4_model":"HLA_analysis/Data/HLA_trained_models/PMRA_HLA_DRB4.RData",
+        "PMRA_DRB5_model":"HLA_analysis/Data/HLA_trained_models/PMRA_HLA_DRB5.RData",
+        "HU":"GWAS/Data/GWAS/HU",
+        "Output_AminoacidAlignment":"Outputs/pyHLA/AA_alignment/AminoAcid_alignment.txt",
+        "Output_AminoacidAlignment_PostPro":"Outputs/pyHLA/AA_alignment/AminoAcid_alignment_PostPro.csv"
+    },
+
+    "code":{
+        "HLA_Chi2":"HLA_analysis/HLA_Chi2.R",
+        "HLA_glm":"HLA_analysis/HLA_glm.R",
+        "HLA_imputation":"HLA_analysis/HLA_imputation.R",
+        "HLA_smallSampleAnalysis":"analysis/HLA_smallSampleAnalysis.R",
+        "predictHLA.R":"HLA_analysis/predictHLA.R",
+        "processSSNP.R":"HLA_analysis/process_SSNP.R"
+    },
+    
+    "diagnosis":["LGI1"],
+    "controlAlleles":["DRB1*07:01"],
+    "excludePosSubjsByAllele":[],
+    "alleleOfInterest":["DRB1*07:01"],
+    "lociOfInterest":["DRB1"],
+    "allele2Remove":["DRB1*01:01"],
+    "allPlates":1,
+    "min_carrierFreq":-1,
+    "AA2control":"DRB1_33_Q",
+    "pvalThres":0.05
+}
